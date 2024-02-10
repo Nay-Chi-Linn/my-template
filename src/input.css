@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: IBMPlexSans-Medium;
+        font-weight: 500;
+        src: url(../font/IBMPlexSans-Medium.ttf);
+      }
+      
+      @font-face {
+        font-family: IBMPlexSans-Regular;
+        font-weight: 400;
+        src: url(../font/IBMPlexSans-Regular.ttf);
+      }
+      
+      .title1 {
+        font-family: IBMPlexSans-Medium,sans-serif;
+      }
+  }
